@@ -12,35 +12,39 @@ public class SpawnerScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            spawnDucks();
+            Invoke("spawnDucks", .5f);
         }
         if (gameManager.numberOfBounces == 10)
         {
-            callFunctionXtimes(1);
+            callFunctionXtimes(2);
         }
         if (gameManager.numberOfBounces == 50)
         {
-            callFunctionXtimes(2);
+            callFunctionXtimes(4);
         }
         if (gameManager.numberOfBounces == 100)
         {
-            callFunctionXtimes(5);
+            callFunctionXtimes(10);
         }
         if (gameManager.numberOfBounces == 500)
         {
-            callFunctionXtimes(10);
+            callFunctionXtimes(20);
         }
         if (gameManager.numberOfBounces == 1000)
         {
-            callFunctionXtimes(10);
+            callFunctionXtimes(50);
         }
         if (gameManager.numberOfBounces == 2500)
         {
-            callFunctionXtimes(50);
+            callFunctionXtimes(75);
         }
         if (gameManager.numberOfBounces == 10000)
         {
-            InvokeRepeating("spawnDucks",2f,2f);
+            callFunctionXtimes(10);
+        }
+        if (gameManager.numberOfBounces == 100000)
+        {
+            InvokeRepeating("spawnDucks",0,3f);
         }
     }
 
