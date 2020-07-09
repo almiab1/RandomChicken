@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/Scenes/MenuScene.unity
+    guid: 4b82ad6731bb3f547a048fccf271d698
+  - enabled: 1
+    path: Assets/Scenes/ChickenGame.unity
+    guid: d98582cbd68b8dd4d976e0d340f12763
+  - enabled: 1
+    path: Assets/Scenes/JailGame.unity
+    guid: 01632d7b7929bb748b3edc946803a168
   m_configObjects: {}

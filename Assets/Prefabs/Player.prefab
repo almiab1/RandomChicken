@@ -109,8 +109,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 1
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 798ca89f03786944cb403e7c659de3d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensibility: 500
+  mouseSensibility: 250
   playerBody: {fileID: 2202668465934687862}
 --- !u!1 &3849860386441652879
 GameObject:
